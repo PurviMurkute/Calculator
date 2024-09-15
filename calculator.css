@@ -1,22 +1,29 @@
-body{
-    background-color: #ffffcc;
+body {
+    background-image: url(bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
-.heading{
+
+.heading {
     color: #003cb3;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 }
-.calculator-container{
+
+.calculator-container {
     background-color: #666699;
     height: 450px;
     width: 310px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding: 5px 10px 10px 10px;
     border-radius: 10px;
 }
-#calculator-screen{
+
+#calculator-screen {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +35,8 @@ body{
     margin-top: 50px;
     background-color: #99ff99;
 }
-.btn{
+
+.btn {
     font-size: 30px;
     height: 45px;
     width: 50px;
@@ -37,21 +45,25 @@ body{
     border-radius: 5px;
     border: 1px solid #000;
 }
-.clear-btn{
+
+.clear-btn {
     width: 120px;
 }
-.btn-container{
+
+.btn-container {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
 }
-.btn:hover{
+
+.btn:hover {
     border-radius: 10px;
     background-color: #000;
     color: #fff;
-    box-shadow: 1px 1px 2px 2px gray;
+    transition: 0.5s;
 }
-.special-btn{
+
+.special-btn {
     background-color: #ff0000;
     color: #fff;
 }
