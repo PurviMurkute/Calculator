@@ -8,7 +8,7 @@ body {
 }
 
 .heading {
-    color: #003cb3;
+    color: #666699;
     text-align: center;
     font-size: 35px;
 }
@@ -46,9 +46,6 @@ body {
     border: 1px solid #000;
 }
 
-.clear-btn {
-    width: 120px;
-}
 
 .btn-container {
     margin-left: 15px;
@@ -64,6 +61,6 @@ body {
 }
 
 .special-btn {
-    background-color: #ff0000;
+    background-color: #ffcc00;
     color: #fff;
 }

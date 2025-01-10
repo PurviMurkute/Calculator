@@ -12,3 +12,8 @@ function clearScreen(){
     const screenElement = document.getElementById("calculator-screen");
     screenElement.value = '';
 }
+
+function backSpace() {
+    const screenElement = document.getElementById("calculator-screen");
+    screenElement.value = screenElement.value.slice(0, -1);
+}
